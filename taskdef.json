@@ -20,5 +20,5 @@
     "networkMode": "awsvpc",
     "cpu": "256",
     "memory": "512",
-    "family": "first-run-task-definition"
+    "family": "adidas-test"
 }
