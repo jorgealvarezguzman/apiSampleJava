@@ -13,7 +13,7 @@ Technology stack:
 7. **AWS Fargate** as the serverless compute engine for our container
 8. **AWS EC2** to create the load balancer and the target groups
 
-![alt text](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/images/pattern-img/e36c214f-07b9-4fe2-8f7d-f6cfcb56b7e9/images/073c66b0-2ba8-40b9-8e3f-592f198f49e2.png)
+![alt text](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/images/pattern-img/e36c214f-07b9-4fe2-8f7d-f6cfcb56b7e9/images/5d29fc5d-68f2-4400-a60b-242ef0a0a41e.png)
 
 **Figure 1.** Architecture on AWS
 
