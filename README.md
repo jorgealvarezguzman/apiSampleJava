@@ -1,6 +1,6 @@
 # Deploy a CI/CD pipeline for apiSampleJava on Amazon ECS
 
-This repository provides all the necesary components to create and deploy a CI/CD pipeline for apiSampleJava on Amazon ECS.
+This repository provides all the necesary components to create and deploy a CI/CD pipeline for apiSampleJava on AWS.
 
 Technology stack:
 
