@@ -13,11 +13,7 @@
                 }
             ],
             "healthCheck": {
-              "retries": 10,
               "command": [ "CMD-SHELL", "curl -f http://localhost/ || exit 1" ],
-              "timeout": 60,
-              "interval": 300,
-              "startPeriod": 300
             }
         }
     ],
