@@ -11,7 +11,17 @@
                     "protocol": "tcp",
                     "containerPort": 80
                 }
-            ]
+            ],
+            "healthCheck": {
+              "retries": 3,
+              "command": [
+                  "CMD-SHELL",
+                  "curl -f http://localhost:80/ || exit 1"
+              ],
+              "timeout": 5,
+              "interval": 30,
+              "startPeriod": null
+            }
         }
     ],
     "requiresCompatibilities": [
