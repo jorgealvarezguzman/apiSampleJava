@@ -17,9 +17,9 @@
                   "CMD-SHELL",
                   "echo hello"
                 ],
-                "interval": 5,
-                "timeout": 2,
-                "retries": 3
+                "interval": 300,
+                "timeout": 60,
+                "retries": 10
             } 
         }
     ],
