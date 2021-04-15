@@ -17,24 +17,36 @@ Technology stack:
 
 **Figure 1.** Architecture on AWS
 
-Step 1: Create the CI/CD pipeline with CodePipeline
+## Step 1: Create the CI/CD pipeline with CodePipeline
 
 ![alt text](https://jorgeaalvarezguzman.s3.amazonaws.com/CodePipeline.png)
 
 **Figure 2.** CodePipeline
 
-Step 1: Create an Application Load Balancer
+## Step 2: Configure GitHub as Source in CodePipeline
 
-Step 2: Create an Amazon ECS cluster
+## Step 3: Create a build project in CodeBuild
+Use the buildspec.yml file.
 
-Step 3: Register a task definition
+## Step 4: Configure the CodeBuild as Build in CodePipeline
+This will create a container image in the ECR.
 
-Step 4: Create an Amazon ECS service
+## Step 5: Create an Application Load Balancer in EC2
 
-Step 5: Create the AWS CodeDeploy resources
+## Step 6: Create an Amazon ECS cluster
 
-Step 6: Create and monitor an CodeDeploy deployment
+## Step 7: Register a task definition
+Use the taskdef.json file.
 
+## Step 8: Create an Amazon ECS service
+
+## Step 9: Create the AWS CodeDeploy resources
+
+## Step 10: Create and monitor a CodeDeploy Blue/Green deployment
+Use the appspec.yml file.
+
+## Step 11: Configure the CodeDeploy project as Deploy in CodePipeline with Fargate
+Use the ECR container image as input artifact, as well as the SourceArtifact from the CodeBuild.
 
 # References
 [1] https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-ci-cd-pipeline-for-java-microservices-on-amazon-ecs.html \
