@@ -17,9 +17,28 @@ Technology stack:
 
 **Figure 1.** Architecture on AWS
 
+Step 1: Create the CI/CD pipeline with CodePipeline
+
+![alt text](https://jorgeaalvarezguzman.s3.amazonaws.com/CodePipeline.png)
+
+**Figure 2.** CodePipeline
+
+Step 1: Create an Application Load Balancer
+
+Step 2: Create an Amazon ECS cluster
+
+Step 3: Register a task definition
+
+Step 4: Create an Amazon ECS service
+
+Step 5: Create the AWS CodeDeploy resources
+
+Step 6: Create and monitor an CodeDeploy deployment
+
 
 # References
 [1] https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-ci-cd-pipeline-for-java-microservices-on-amazon-ecs.html \
 [2] https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-ecs-ecr-codedeploy.html \
 [3] https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-groups-create-load-balancer-for-ecs.html \
 [4] https://docs.amazonaws.cn/en_us/AmazonECS/latest/developerguide/deployment-type-bluegreen.html
+[5] https://docs.aws.amazon.com/AmazonECS/latest/developerguide/example_task_definitions.html
